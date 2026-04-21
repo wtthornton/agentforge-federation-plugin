@@ -1,0 +1,21 @@
+{
+  "schema_version": "1",
+  "id": "federation-test",
+  "display_name": "Federation Test",
+  "version": "1.0.0",
+  "namespace": "project.federation-test",
+  "backend": {
+    "entry_point": "agentforge_federation.plugin:register",
+    "routes_prefix": "/api/federation-test",
+    "resource_providers": []
+  },
+  "agents": [
+    {"name": "federation-test-agent", "path": "agentforge_federation/agents/federation_test_agent"}
+  ],
+  "frontend": {
+    "remote_url": "/api/federation-test/widget",
+    "nav_label": "Federation Test",
+    "nav_icon": "Globe",
+    "route": "/federation-test"
+  }
+}
