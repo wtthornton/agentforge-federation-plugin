@@ -3,7 +3,6 @@ name: federation-test-agent
 namespace: project.federation-test.federation-test-agent
 description: Test agent for AgentForge frontend federation/iframe rig.
 keywords: [federation, iframe, frontend, test]
-runner: agentforge_federation.agents.federation_test_agent.runner:FederationRunner
 ---
 
 # Federation Test Agent
